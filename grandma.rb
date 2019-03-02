@@ -17,20 +17,32 @@ def speak_to_grandma (phrase)
   
   a =  phrase.downcase
   puts "this is value of #{a}"
-  if phrase == a 
-    
-    return 'HUH?! SPEAK UP, SONNY!'
+
+ if                               
+
+  phrase == phrase.upcase
+  puts 'NO, NOT SINCE 1938!'
+
+
   else if 
     
     phrase == 'I LOVE YOU GRANDMA!'
     
     
-    return 'I LOVE YOU TOO PUMPKIN!'
+    puts 'I LOVE YOU TOO PUMPKIN!'
     
-  else                              
-    
-    return 'NO, NOT SINCE 1938!'
-    
+  else if                               
+
+    phrase == phrase.upcase
+    puts 'NO, NOT SINCE 1938!'
+  else 
+    # phrase == a 
+        
+      puts  'HUH?! SPEAK UP, SONNY!'
+
+
+
+end    
   end 
 end
 end 
