@@ -18,19 +18,22 @@ def speak_to_grandma (phrase)
   a =  phrase.downcase
   #return "this is value of #{a}"
 
- if                               
-
-  phrase == phrase.upcase
-  return 'NO, NOT SINCE 1938!'
-
-
-  else if 
+ if 
     
     phrase == 'I LOVE YOU GRANDMA!'
     
     
     return 'I LOVE YOU TOO PUMPKIN!'
-    
+
+ 
+ 
+ else if                               
+
+  phrase == phrase.upcase
+  return 'NO, NOT SINCE 1938!'
+
+
+       
   else if                               
 
     phrase == phrase.upcase
